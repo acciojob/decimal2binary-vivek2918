@@ -8,4 +8,4 @@ function threeSum(num) {
 	return ans;
 }
 
-module.exports = threeSum;
+module.exports = threeSum();
