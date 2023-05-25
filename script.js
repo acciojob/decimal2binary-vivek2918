@@ -3,7 +3,7 @@ function threeSum(arr, target) {
   let ans = "";
   while(n != 0){
 	  ans = (n%2) + ans;
-	  n = praseInt(n/2);
+	  n = parseInt(n/2);
   }
 	return ans;
 }
