@@ -1,4 +1,4 @@
-function threeSum(arr, target) {
+function threeSum(n) {
 // write your code here
   let ans = "";
   while(n != 0){
