@@ -1,9 +1,9 @@
-function threeSum(n) {
+function threeSum(num) {
 // write your code here
   let ans = "";
-  while(n != 0){
-	  ans = (n%2) + ans;
-	  n = parseInt(n/2);
+  while(num != 0){
+	  ans = (num%2) + ans;
+	  num = parseInt(num/2);
   }
 	return ans;
 }
