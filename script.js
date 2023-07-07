@@ -1,10 +1,5 @@
-function decToBin(num){
-	let ans = "";
-	while(num > 0){
-		ans = (num%2) + ans;
-		n = parseInt(n/2);
-	}
-	return ans;
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = decToBin;
+window.decimalToBinary = decimalToBinary;
